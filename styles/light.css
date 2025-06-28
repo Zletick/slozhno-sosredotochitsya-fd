@@ -9,9 +9,11 @@
   */
 
 :root.theme-light {
-  --accent-color: #ff8dcb;
-  --bg-color: #fff1f7;
+
   --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
+  
+ 
   --subtitle-color: #353430;
   --text-color: #353430;
   --section-title-color: #353430;
@@ -21,8 +23,8 @@
   --heading-text: #ffc2e6;
   --font-color-shadow: #ff8dcb;
   --secondary-color: var(--color-black, #35343040);
-  background-image: var(--bg-image);
-  background-color: #fff1f7;
+  --background-image: var(--bg-image);
+  --background-color: #fff1f7;
   --bg-subtitle: #ff8dcb;
   --font-color-secondary: #353430;
   --button-color-hover: #32312d66;
@@ -37,25 +39,31 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root .theme-light {
-    --accent-color: #ff8dcb;
-    --bg-color: #fff1f7;
-    --bg-image: url(../images/cover-image-light.png);
-    --subtitle-color: #353430;
-    --text-color: #353430;
-    --section-title-color: #353430;
-    --article-title-color: #353430;
-    --border-color: #353430;
-    --bg-subtitle: #ff8dcb;
-    --section-article-text: #353430;
-    --heading-text: #ffc2e6;
-    --secondari-title: #353430;
-    --secondary-color: var(--color-black, #35343040);
-    --font-color-secondary: #353430;
-    --button-color-hover: #32312d66;
-    --button-color-active: #353430;
-    --button-color-focus: #353430;
-    --font-color-tertiary: #353430;
-    --link-hover-color: #353430;
+  :root {
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
+  
+
+  --subtitle-color: #353430;
+  --text-color: #353430;
+  --section-title-color: #353430;
+  --article-title-color: #353430;
+  --border-color: #353430;
+  --section-article-text: #353430;
+  --heading-text: #ffc2e6;
+  --font-color-shadow: #ff8dcb;
+  --secondary-color: var(--color-black, #35343040);
+  --background-image: var(--bg-image);
+  --background-color: #fff1f7;
+  --bg-subtitle: #ff8dcb;
+  --font-color-secondary: #353430;
+  --button-color-hover: #32312d66;
+  --button-color-active: #353430;
+  --button-color-focus: #353430;
+  --font-color-tertiary: #353430;
+  --link-hover-color: #353430;
+  }
+  .header__rec {
+    display: none;
   }
 }
